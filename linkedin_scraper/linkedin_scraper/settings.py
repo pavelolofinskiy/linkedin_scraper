@@ -12,14 +12,6 @@ BOT_NAME = "linkedin_scraper"
 SPIDER_MODULES = ["linkedin_scraper.spiders"]
 NEWSPIDER_MODULE = "linkedin_scraper.spiders"
 
-SCRAPEOPS_API_KEY = '3f240adf-5e47-47e0-8f04-f46e5b92f260'
-  
-SCRAPEOPS_PROXY_ENABLED = True
-
-DOWNLOADER_MIDDLEWARES = {
-    'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725,
-}
-
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "linkedin_scraper (+http://www.yourdomain.com)"
